@@ -8,8 +8,7 @@ int main()
     int left=-1,right=-1;
     for(int i=1; i<9; i++)
         temp[i]=temp[i-1]+a[i];
-        for(int i=0; i<9; i++)
-        {
+    for(int i=0; i<9; i++){
             for(int j=i; j<9; j++)
             {
                 currentSum=0;
