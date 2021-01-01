@@ -11,7 +11,7 @@ void prime_sieve(int *p)
     {
         if(p[i]==1)
         {
-            for(ll j=i*i; j<=1000000; j++)
+            for(ll j=i*i; j<=1000000; j+=2*i)
             {
                 p[j]=0;
             }
