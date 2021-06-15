@@ -10,7 +10,7 @@ bool can_place(int **mat, int i, int j, int n, int num)
             return false;
         }
     }
-    int rn=sqrt(n);
+    int rn=n/3;
     int sx=(i/rn)*rn;
     int sy=(j/rn)*rn;
     for(int x=sx; x<sx+rn; x++)
